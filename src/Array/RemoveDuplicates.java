@@ -1,16 +1,16 @@
 package Array;
 
-import java.util.Arrays;
+
 import java.util.HashSet;
 import java.util.Set;
 
 public class RemoveDuplicates {
 
     public static void main(String[] args) {
-        Integer[] numbers = {1, 2, 2, 3, 4, 4, 5};
+        Integer[] arr = {1, 2, 2, 3, 4, 4, 5};
         Set<Integer> unique = new HashSet<>();
-        for(int arr:numbers){
-            unique.add(arr);
+        for(int numbers:arr){
+            unique.add(numbers);
         }
 
         System.out.println(unique);
